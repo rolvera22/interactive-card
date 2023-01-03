@@ -1,0 +1,34 @@
+:root{
+
+--White: hsl(0, 0%, 100%);
+--Light-grayish-violet: hsl(270, 3%, 87%);
+--Dark-grayish-violet: hsl(279, 6%, 55%);
+--Very-dark-violet: hsl(278, 68%, 11%);
+}
+
+body{
+
+background-color: white;    
+}
+
+.tarjetaDetras{
+
+margin: 0 auto;
+left: 25px;
+}
+
+.tarjetaDelante{
+
+top: 67px;
+margin-right: 57px;
+}
+
+.container{
+    margin-top: 121px;
+    max-width: 500px;
+}
+
+
+
+
+
