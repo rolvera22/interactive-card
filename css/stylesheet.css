@@ -1,5 +1,10 @@
-:root{
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
 
+*{
+font-family: 'Space Grotesk', sans-serif;
+}
+
+:root{
 --White: hsl(0, 0%, 100%);
 --Light-grayish-violet: hsl(270, 3%, 87%);
 --Dark-grayish-violet: hsl(279, 6%, 55%);
@@ -7,27 +12,75 @@
 }
 
 body{
-
 background-color: white;    
-}
-
-.tarjetaDetras{
-
-margin: 0 auto;
-left: 25px;
 }
 
 .tarjetaDelante{
 
-top: 67px;
-margin-right: 57px;
+top: 66px;
+
+}
+
+.container2{
+    
+max-width: 400px;
+}
+
+label{
+color: var(--Very-dark-violet);
+font-size: 13px;
+font-weight: 500;
+width: 353px;
+}
+
+.buttonConfirm{
+
+border-radius: 10px;
+padding: 12px;
+width: 92%;
+background-color: var(--Very-dark-violet);
+color: white;
+border-style: none;
+}
+
+.formulario{
+
+margin-left: 15px;
+max-width: 400px;
+margin-top: 274px;
+
+}
+
+.form-control{
+
+width: 92%;
+
+}
+
+.cvc{
+width: 38%;
+
+}
+
+@media only screen and (min-width: 1000px){
+
+.formulario{
+
+margin-top: 0;
+
+
+}
+
+.imgFondoDesktop{
+height: 100vh;
+
 }
 
 .container{
-    margin-top: 121px;
-    max-width: 500px;
-}
 
+    margin-top: 0px;
+
+}
 
 
 
